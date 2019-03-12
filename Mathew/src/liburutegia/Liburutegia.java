@@ -4,14 +4,15 @@ public class Liburutegia {
 	//Atributuak.
 	private String Izena;
 	private String helbidea;
-	private int IkasleKopurua;
+	private int IkasleKopurua=0;
 	private Liburua [] Liburuak;
+	private int libkop=0;
 	
 	public Liburutegia(String izena, String helbidea, int ikasleKopurua, Liburua[] liburuak) {
 		Izena = izena;
 		this.helbidea = helbidea;
 		IkasleKopurua = ikasleKopurua;
-		Liburuak = liburuak;
+		Liburuak = new Liburua [10];
 	}
 
 	//Getter eta Setter
@@ -47,6 +48,10 @@ public class Liburutegia {
 		Liburuak = liburuak;
 	}
 	
-	
+	//Liburu bat gehitu.
+	public void GehituIkaslea(Liburua lib, int posizioa) {
+		this.Liburuak[posizioa]=lib;
+		this.libkop++;
+	}
 	
 }
