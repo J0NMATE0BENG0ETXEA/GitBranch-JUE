@@ -49,7 +49,7 @@ public class Liburutegia {
 	}
 	
 	//Liburu bat gehitu.
-	public void GehituIkaslea(Liburua lib, int posizioa) {
+	public void GehituLiburua(Liburua lib, int posizioa) {
 		this.Liburuak[posizioa]=lib;
 		this.libkop++;
 	}
