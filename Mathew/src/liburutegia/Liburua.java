@@ -1,38 +1,32 @@
 package liburutegia;
 
-import java.util.ArrayList;
-
 public class Liburua {
 
-	private String izena;
-	private String helbidea;
-	private int ikasle_kop;
-	private ArrayList<Liburua> Liburuak = new ArrayList<Liburua>();
+	private String izenburua;
+	private String ISBN;
+	private int orri_kop;
 	
-	
-	public String getIzena() {
-		return izena;
+	public String getIzenburua() {
+		return izenburua;
 	}
-	public void setIzena(String izena) {
-		this.izena = izena;
+	public void setIzenburua(String izenburua) {
+		this.izenburua = izenburua;
 	}
-	public String getHelbidea() {
-		return helbidea;
+	public String getISBN() {
+		return ISBN;
 	}
-	public void setHelbidea(String helbidea) {
-		this.helbidea = helbidea;
+	public void setISBN(String iSBN) {
+		ISBN = iSBN;
 	}
-	public int getIkasle_kop() {
-		return ikasle_kop;
+	public int getOrri_kop() {
+		return orri_kop;
 	}
-	public void setIkasle_kop(int ikasle_kop) {
-		this.ikasle_kop = ikasle_kop;
+	public void setOrri_kop(int orri_kop) {
+		this.orri_kop = orri_kop;
 	}
-	public ArrayList<Liburua> getLiburuak() {
-		return Liburuak;
-	}
-	public void setLiburuak(ArrayList<Liburua> liburuak) {
-		Liburuak = liburuak;
+	@Override
+	public String toString() {
+		return "Liburua [izenburua=" + izenburua + "]";
 	}
 	
 	
