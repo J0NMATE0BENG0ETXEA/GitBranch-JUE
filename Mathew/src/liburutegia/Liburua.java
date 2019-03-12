@@ -25,3 +25,4 @@ public void setOrrialdeKopurua(int orrialdeKopurua) {
 } 
 
 }
+//adasdasaafasdfaf
