@@ -1,5 +1,10 @@
 package liburutegia;
 
 public class Liburutegia {
-//jkfgjkhfg
+// eta Liburuak:ArrayList&lt;Liburua&gt;
+	private String Izena;
+	private String helbidea;
+	private int IkasleKopurua;
+	private Liburua [] Liburuak;
+	
 }
